@@ -33,7 +33,7 @@ Dopodiché, si digita i seguenti comandi nell’ordine per compilare il client:
 
 Di conseguenza, si digita i seguenti comandi nell’ordine per compilare il server:
 
-**avac CommunicationInterface.java**
+**javac CommunicationInterface.java**
 
 **javac -cp “.;./json-simple-1.1.1.jar” User.java**
 
@@ -50,23 +50,23 @@ Successivamente, per eseguire il progetto si digita nel terminale i seguenti due
 **java -classpath ".;./json-simple-1.1.1.jar" MainClassTuringClient**
 
 I comandi per eseguire le operazioni di TURING sono le stesse suggerite nelle specifiche del progetto:
+
 **$ turing --help**
 
 **usage: turing COMMAND [ARGS ...]**
 
 **commands:**
 
-- **_register_ <username > <password > registra l'utente**
-*login* <username > <password > effettua il login
-*logout* effettua il logout
-create <doc > <numsezioni > crea un documento
-share <doc > <username > condivide il documento
-show <doc > <sec > mostra una sezione del documento
-show <doc > mostra l'intero documento
-list mostra la lista dei documenti
-edit <doc > <sec > modifica una sezione del documento
-end - edit <doc > <sec > fine modifica della sezione del doc.
-send <msg > invia un msg sulla chat dove il msg è tra “msg”
-(virgolette)
-receive visualizza i msg ricevuti sulla chat
+- **_register_** <username > <password > registra l'utente
+- **_login_** <username > <password > effettua il login
+- **_logout_** effettua il logout
+- **_create_** <doc > <numsezioni > crea un documento
+- **_share_** <doc > <username > condivide il documento
+- **_show_** <doc > <sec > mostra una sezione del documento
+- **_show_** <doc > mostra l'intero documento
+- **_list_** mostra la lista dei documenti
+- **_edit_** <doc > <sec > modifica una sezione del documento
+- **_end-edit_** <doc > <sec > fine modifica della sezione del doc.
+- **_send_** <msg > invia un msg sulla chat dove il msg è tra “msg” (virgolette)
+- **_receive_** visualizza i msg ricevuti sulla chat
 Dato che il progetto non adotta
