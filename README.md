@@ -57,16 +57,15 @@ I comandi per eseguire le operazioni di TURING sono le stesse suggerite nelle sp
 
 **commands:**
 
-- **_register_** <username > <password > registra l'utente
-- **_login_** <username > <password > effettua il login
+- **_register_** < username > <password > registra l'utente
+- **_login_** < username > <password > effettua il login
 - **_logout_** effettua il logout
-- **_create_** <doc > <numsezioni > crea un documento
-- **_share_** <doc > <username > condivide il documento
-- **_show_** <doc > <sec > mostra una sezione del documento
-- **_show_** <doc > mostra l'intero documento
+- **_create_** < doc > <numsezioni > crea un documento
+- **_share_** < doc > <username > condivide il documento
+- **_show_** < doc > <sec > mostra una sezione del documento
+- **_show_** < doc > mostra l'intero documento
 - **_list_** mostra la lista dei documenti
-- **_edit_** <doc > <sec > modifica una sezione del documento
-- **_end-edit_** <doc > <sec > fine modifica della sezione del doc.
-- **_send_** <msg > invia un msg sulla chat dove il msg è tra “msg” (virgolette)
-- **_receive_** visualizza i msg ricevuti sulla chat
-Dato che il progetto non adotta
+- **_edit_** < doc > <sec > modifica una sezione del documento
+- **_end-edit_** < doc > <sec > fine modifica della sezione del doc.
+- **_send_** < "msg" > invia un msg sulla chat dove il msg è tra “msg” (virgolette).
+- **_receive_** visualizza i msg ricevuti sulla chat.
