@@ -12,7 +12,7 @@ Il progetto è diviso in due parti:
 Per capire come funziona potete leggere la relazione scritta nel file *Relazione_Progetto_Reti.pdf*
 
 
-##Compilazione ed esecuzione del codice
+## Compilazione ed esecuzione del codice
 
 Per questo progetto si è usato la libreria esterna JSON-Simple per implementare gli oggetti JSON.
 Inoltre è stato scritto con Eclipse e testato su un sistema operativo Windows.
@@ -20,26 +20,43 @@ Inoltre è stato scritto con Eclipse e testato su un sistema operativo Windows.
 I file sono divisi in due cartelle, Server e Client.
 Per poter compilare ed eseguire il progetto bisogna prima di tutto digitare nel terminale il seguente
 comando per entrambe le cartelle:
+
 **javac TuringException/*.java**
+
 Tale comando compila tutte le classi contenute nella cartella (package) TuringException, ovvero tutte
 le eccezioni personalizzate per questo progetto.
 Dopodiché, si digita i seguenti comandi nell’ordine per compilare il client:
+
 **javac UDPChat.java**
+
 **javac -cp “.;./json-simple-1.1.1.jar” MainClassTuringClient.java**
+
 Di conseguenza, si digita i seguenti comandi nell’ordine per compilare il server:
-**avac CommunicationInterface.java
-javac -cp “.;./json-simple-1.1.1.jar” User.java**
-**javac registerUserInterface.java
-javac -cp “.;./json-simple-1.1.1.jar” registerUser.java
-javac MainClassTuringServer.java**
+
+**avac CommunicationInterface.java**
+
+**javac -cp “.;./json-simple-1.1.1.jar” User.java**
+
+**javac registerUserInterface.java**
+
+**javac -cp “.;./json-simple-1.1.1.jar” registerUser.java**
+
+**javac MainClassTuringServer.java**
+
 Successivamente, per eseguire il progetto si digita nel terminale i seguenti due comandi nell’ordine:
-**java -classpath ".;./json-simple-1.1.1.jar" MainClassTuringServer
-java -classpath ".;./json-simple-1.1.1.jar" MainClassTuringClient**
+
+**java -classpath ".;./json-simple-1.1.1.jar" MainClassTuringServer**
+
+**java -classpath ".;./json-simple-1.1.1.jar" MainClassTuringClient**
+
 I comandi per eseguire le operazioni di TURING sono le stesse suggerite nelle specifiche del progetto:
-**$ turing --help
-usage: turing COMMAND [ARGS ...]
-commands:**
-*register* <username > <password > registra l'utente
+**$ turing --help**
+
+**usage: turing COMMAND [ARGS ...]**
+
+**commands:**
+
+- **_register_ <username > <password > registra l'utente**
 *login* <username > <password > effettua il login
 *logout* effettua il logout
 create <doc > <numsezioni > crea un documento
