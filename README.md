@@ -13,6 +13,7 @@ Per capire come funziona potete leggere la relazione scritta nel file *Relazione
 
 
 ##Compilazione ed esecuzione del codice
+
 Per questo progetto si è usato la libreria esterna JSON-Simple per implementare gli oggetti JSON.
 Inoltre è stato scritto con Eclipse e testato su un sistema operativo Windows.
 
